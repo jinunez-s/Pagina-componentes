@@ -1,0 +1,32 @@
+a{
+    transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+
+}
+
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+
+#carouselp{
+    color: white;
+    font-size: 32px;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    height: 2rem;
+}

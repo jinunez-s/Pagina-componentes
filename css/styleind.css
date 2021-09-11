@@ -1,0 +1,49 @@
+/*-------LINKS DE NAVBAR-----*/
+.nav .nav-link{
+    transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+}
+
+/*-----Enlace del antiguo navbar----*/
+#enlace-next{
+    color: black !important;
+    background-color: transparent;
+}
+
+.container {
+    padding-bottom: 1rem;
+}
+
+
+.pagination{
+    margin: 1rem;
+    justify-content: center;
+}
+
+
+#f3{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    margin: 2rem;
+}
+
+a{
+    transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: black!important;
+}
+
+#Navbar{
+    display: grid ;
+}
+
+.btn{
+    width: 120px;
+}

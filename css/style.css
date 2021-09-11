@@ -1,0 +1,217 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*---------------Navbar----------------------*/
+a{
+    transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+}
+
+
+/* index */
+#enlace-next{
+    color: black !important;
+    background-color: transparent;
+}
+
+/* Table */
+
+/*---Right ---*/
+.right{
+    padding: 1rem 80px;
+    margin-left: 50%;
+}
+/* -------------------Slide------------------*/
+
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+
+}
+
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#carouselp{
+    color: white;
+    font-size: 32px;
+}
+
+/*--------- INDEX----------*/
+.container-espacio{
+    height: 10vh;
+}
+
+/*-----------Tarjeta -------*/
+
+#tarjeta-1{
+    padding: 5%;
+    margin: 5%;
+}
+#razones{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* --------------------Tarjeta --------------------*/
+
+.inner{
+    padding-top: 20px;
+}
+
+.header{
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+/*
+.header::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 150px;
+    background-color: #2ecc71;
+}*/
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box{
+    padding: 1rem;
+    cursor: pointer;
+}
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+.skill-title::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 100px;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: #2ecc71;
+}
+
+.skill-title:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 135px;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: #2ecc71;
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background: rgb(100, 100, 100,0.5);
+    border-radius: 45px 0 0 45px;
+}
+
+.skill-title h3{
+    margin: 0.5rem;
+}
+.skill-icon{
+    width:50px;
+    z-index: 2;
+}
+
+/* --------------------Formulario--------------------*/
+
+.formulario .input-field{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.formulario .input-field label{
+    width: 200px;
+
+}
+
+input[type = "text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type ="submit"], button{
+    background: #7D0a42;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.formulario{
+    width: 100%;
+    justify-content: center;
+    margin: 0px auto;
+    flex-direction: column;
+    max-width: 600px;
+    
+}
+#contenido h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenido form{
+    border: 3px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#contenido form *{
+    display: inline-block;
+}
+

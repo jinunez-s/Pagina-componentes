@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styleslide.css">
+
+    <title>Pagina 2</title>
+</head>
+<body>
+    <!--Navbar-->
+    <ul class="nav justify-content-center bg-dark">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./formulario.html">Formulario</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./tarjeta.html">Tarjeta</a>
+        </li>
+        <li class="nav-item text-end">
+            <a class="nav-link" href="./slide.html">Slider</a>
+          </li>
+    </ul>
+    <!--Carousell-->
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h4>Componente Carousel </h4>
+        </div>
+          <div class="card-body">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/w1.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption">
+                        <button type="button" class="btn btn-group" data-bs-toggle="modal" data-bs-target="#exampleModal1"><p id="carouselp">¿Que es un Carousel?</p></button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/w2.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption">
+                        <button type="button" class="btn btn-group" data-bs-toggle="modal" data-bs-target="#exampleModal2"><p id="carouselp" >¿Que es Carousel - Item?</p></button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/w3.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption">
+                        <button type="button" class="btn btn-group" data-bs-toggle="modal" data-bs-target="#exampleModal3"><p id="carouselp">¿Que es un Carousel - Caption?</p></button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+      <!--Modal Imagen 1-->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel1">¿Que es el Carousel? </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Es un componente de presentación de dispositvas que pueden incluir texto e imagen y va recorriendo cada elemento dentro de el. 
+           <!--Colocar imagen-->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Entendido</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    <!--Modal Imagen 2-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">¿Que es Carousel - Item?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Son los elementos que esta recorriendo el Carousel o Slider, pueden contener imagenes y texto. 
+           <!--Colocar imagen-->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Entendido</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Modal Imagen 3-->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel3">¿Que es un Carousel - Caption?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               Es la sección donde se coloca una descripción breve del tema. Puede incluir titulos o parrafo. 
+           <!--Colocar imagen-->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Entendido</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--Segundo Container con img y descripción-->
+    <div class="container">
+      <div class="row">
+        <div class="col col-6">
+          <h1>Carousel</h1>
+          <p>El carrusel es una presentación de diapositivas para recorrer una serie de contenido, construido con transformaciones CSS 3D y un poco de JavaScript. Funciona con una serie de imágenes, texto o marcado personalizado. También incluye soporte para controles e indicadores anteriores / siguientes.<br>
+            <br>
+
+            En los navegadores donde se admite la API de visibilidad de la página, el carrusel evitará que se deslice cuando la página web no sea visible para el usuario (como cuando la pestaña del navegador está inactiva, la ventana del navegador está minimizada, etc.).<br>
+            <br>
+            
+            Tenga en cuenta que los carruseles anidados no son compatibles y, por lo general, los carruseles no cumplen con los estándares de accesibilidad.<br>
+            <br>
+           </p>
+        </div>
+        <div class="col col-6">
+         <h1>Clases y etiquetas</h1> 
+         <h6>Clase apertura de Carousell </h6>
+         <img src="./img/carousell.png" alt="">
+         <br>
+         <br>
+         <h6>Clase para los indicadores </h6>
+         <img src="./img/indicators.png" alt="">
+         <br>
+         <br>
+         <h6>Clase para contenido del carousel </h6>
+         
+         <p>Inner engloba todos los items añadidos por slide y item especifica cada item agregado. Active indica el item que se mostrara al cargar la pagina. </p>
+         <img src="./img/inner.png" alt="">
+
+         
+        </div>
+
+      </div>
+    </div>
+    <footer>
+
+    </footer>
+    
+</body>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery-3.6.0.min.js"></script>
+
+</html>

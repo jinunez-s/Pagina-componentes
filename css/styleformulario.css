@@ -1,0 +1,102 @@
+a{
+    transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white !important;
+}
+
+
+
+.formulario .input-field{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.formulario .input-field label{
+    width: 200px;
+}
+
+input[type = "text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type = "email"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+#exampleFormControlTextarea1{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type ="submit"], button{
+    background: #7D0a42;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 45px;
+
+}
+
+.formulario{
+    width: 100%;
+    justify-content: center;
+    margin: 0px auto;
+    flex-direction: column;
+    max-width: 600px;
+    
+}
+#contenido h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenido form{
+    border: 3px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+#contenido form *{
+    display: inline-block;
+
+}
+
+.btn{
+    margin: 0px 50px 0px 550px;
+    width: 300px;
+}
+
+#btn1{
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-left: 1rem;
+    width: 3px;
+    background-color: white !important;
+
+}
+
+.modal-body{
+    text-align: justify;
+}
+
+.alert{
+    margin: 0px 50px 0px 550px;
+    width: 300px;
+}
